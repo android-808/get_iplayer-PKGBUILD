@@ -1,0 +1,7 @@
+#!/bin/sh
+
+. /etc/default/get_iplayer_web_pvr
+# Wait for cgi to start up
+#ping -c 5 -w 1000 127.0.0.1 > /dev/null 2>&1
+sleep 5
+xdg-open http://127.0.0.1:$PORT 

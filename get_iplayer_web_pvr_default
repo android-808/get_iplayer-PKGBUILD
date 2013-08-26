@@ -1,0 +1,5 @@
+# use 0.0.0.0 to bind to all interfaces
+LISTEN=127.0.0.1
+
+# port must be more than 1024 for unprivileged users
+PORT=1935

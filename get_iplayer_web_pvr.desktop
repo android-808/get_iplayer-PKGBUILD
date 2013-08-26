@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=get_iplayer Web PVR
+Comment=A web based frontend to get_iplayer
+Exec=get_iplayer_web_pvr
+Icon=iplayer.png
+Categories=AudioVideo;
+Terminal=true
