@@ -1,7 +1,7 @@
 # Maintainer: Mark Foxwell <fastfret79@archlinux.org,uk>
 
 pkgname=get_iplayer
-pkgver=2.85
+pkgver=2.86
 pkgrel=1
 pkgdesc="Allows you to download or stream any iPlayer programme from the BBC in H.264 (Quicktime/mp4) format, any radio programmes in MP3 or RealAudio format"
 arch=('any')
@@ -19,7 +19,7 @@ source=(ftp://ftp.infradead.org/pub/get_iplayer/$pkgname-$pkgver.tar.gz
         'iplayer-48x48.png'
         'get_iplayer_web_pvr.desktop'
         'launchwindow')
-md5sums=('2f9fa18cd68eb2ba556052b73c0c1749'
+md5sums=('e5277184e25ded28db3d16b4f783163f'
          'b9584e27941cbccadf3b3ac506479fb4'
          '8baf2ce97929f027a80802f5d8837fdc'
          'ca50a038c6e7da0e90406530511a5254'
