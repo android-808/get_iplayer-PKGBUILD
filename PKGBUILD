@@ -1,25 +1,24 @@
 # Maintainer: Mark Foxwell <fastfret79@archlinux.org,uk>
 
 pkgname=get_iplayer
-pkgver=2.86
-pkgrel=1
+pkgver=2.92
+pkgrel=2
 pkgdesc="Allows you to download or stream any iPlayer programme from the BBC in H.264 (Quicktime/mp4) format, any radio programmes in MP3 or RealAudio format"
 arch=('any')
 url="http://www.infradead.org/get_iplayer/html/get_iplayer.html"
 license=('GPL3')
 depends=('perl-libwww' 'perl-html-parser' 'perl-www-mechanize' 'perl-http-cookies' 'perl-net-http' 'perl-xml-simple')
 optdepends=('rtmpdump' 'flvstreamer' 'ffmpeg' 'id3v2' 'perl-mp3-info')
-conflicts=('get_iplayer', 'get_iplayer-git')
-provides=('get_iplayer')
+conflicts=('get_iplayer-git')
 install=$pkgname.install
-source=(ftp://ftp.infradead.org/pub/get_iplayer/$pkgname-$pkgver.tar.gz
+source=(http://downloads.sourceforge.net/sourceforge/get-iplayer/osx/homebrew/${pkgname}-${pkgver}.tar.gz
         'get_iplayer_web_pvr_default'
         'get_iplayer_web_pvr_sh'
         'iplayer-32x32.png' 
         'iplayer-48x48.png'
         'get_iplayer_web_pvr.desktop'
         'launchwindow')
-md5sums=('e5277184e25ded28db3d16b4f783163f'
+md5sums=('40774e6981c7af8ea1c9998cce3e8c50'
          'b9584e27941cbccadf3b3ac506479fb4'
          '8baf2ce97929f027a80802f5d8837fdc'
          'ca50a038c6e7da0e90406530511a5254'
