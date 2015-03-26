@@ -2,7 +2,7 @@
 
 pkgname=get_iplayer
 pkgver=2.92
-pkgrel=2
+pkgrel=3
 pkgdesc="Allows you to download or stream any iPlayer programme from the BBC in H.264 (Quicktime/mp4) format, any radio programmes in MP3 or RealAudio format"
 arch=('any')
 url="http://www.infradead.org/get_iplayer/html/get_iplayer.html"
@@ -11,7 +11,7 @@ depends=('perl-libwww' 'perl-html-parser' 'perl-www-mechanize' 'perl-http-cookie
 optdepends=('rtmpdump' 'flvstreamer' 'ffmpeg' 'id3v2' 'perl-mp3-info')
 conflicts=('get_iplayer-git')
 install=$pkgname.install
-source=(http://downloads.sourceforge.net/sourceforge/get-iplayer/osx/homebrew/${pkgname}-${pkgver}.tar.gz
+source=(ftp://ftp.infradead.org/pub/get_iplayer/${pkgname}-${pkgver}.tar.gz
         'get_iplayer_web_pvr_default'
         'get_iplayer_web_pvr_sh'
         'iplayer-32x32.png' 
